@@ -6,14 +6,8 @@ It also explores safe handling of different data types like integers and UUIDs w
 
 This setup is ideal for learning and extending into a production-grade, fault-tolerant architecture involving Outbox/Inbox patterns and message traceability.
 
-
-Order Update
 ![image](https://github.com/user-attachments/assets/79e1660f-bc38-486b-8d8c-ca6b48516144)
-
-Order Create
 ![image](https://github.com/user-attachments/assets/cc13300d-2b79-4349-82cc-20457399bda8)
-
-Order Delete
 ![image](https://github.com/user-attachments/assets/3a9d05bb-9d85-46b1-9bf0-b2b20b9bf646)
 
 
