@@ -12,5 +12,4 @@ public class DLQConsumer {
         System.out.println("DLQ Message received: " + new String(message.getBody()));
         //logging, retry, insert...
     }
-
 }
