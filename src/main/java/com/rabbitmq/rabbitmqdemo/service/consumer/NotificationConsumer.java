@@ -27,6 +27,7 @@ public class NotificationConsumer {
             channel.basicNack(message.getMessageProperties().getDeliveryTag(), false, false); // -> to DLQ
             //throw new Exception() -> Retry
         }
+        System.out.println("Headers: " + message.getMessageProperties().getHeaders());
         System.out.println("Handling Order Updated: " + event.getQuantity());
     }
 
